@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="fr">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="../assets/Cochonou-logo.png">
+  <title>Composants SAE 3.01</title>
+</head>
+
+<body class="flex bg-indigo-950 flex-col gap-12 font-ff-kanit">
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Header desktop</h2>
+
+
+
+
+
+  <div class="relative justify-center mb-20">
+  <article class=" p-8 flex flex-col justify-center items-center  z-10">
+      <img
+      class="border-8 border-solid border-rouge-base rounded-lg"
+      src="../assets/saucisson-pur-porc.jpg">
+      <div class="">
+      <button class=" absolute p-3 ml-8 bg-rouge-base text-white font-ff-sans rounded-full bottom-80 left-0">Cochonou, le cochon pur porc de chez nous !</button>
+      <a 
+      class=" absolute ml-8 px-6 py-2 bottom-60 left-0 bg-white border-solid border-black border-2 text-black text-center hover:bg-black hover:text-white hover:border-solid hover:border-2 hover:border-black transition duration-300 rounded-3xl text-base font-medium"
+      href="#">
+      Voir les produits
+  </a>
+</div>
+  </article>
+
+  <article class="absolute left-40 z-20 -bottom-20 flex gap-8 ml-8">
+      <section class="menu">
+        <img
+          class="w-24 aspect-square object-cover"
+          src="../assets/saucisson.png"
+          alt="icon de saucisse"
+        />
+        <h2 class="">Charcuterie</h2>
+      </section>
+      <section class="menu">
+        <img
+          class="w-24 aspect-square object-fill"
+          src="../assets/porte-cles.png"
+          alt="icon de saucisse"
+        />
+        <h2 class="">Accessoires</h2>
+      </section>
+      <section class="menu-active">
+        <img
+          class="w-24 aspect-square object-cover"
+          src="../assets/t-shirt.png"
+          alt="icon de saucisse"
+        />
+        <h2 class="">Vêtements</h2>
+      </section>
+    </article>
+  </div>
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Header test</h2>4
+
+
+
+
+
+
+  <div class="relative flex py-12 bg-saucisson bg-cover border-solid border-rouge-base border-4">
+    <div class="flex flex-col gap-4">
+      <a href="" class="p-3 rounded-full bg-rouge-base text-white font-ff-sans">Cochonou, le cochon pur porc de chez nous !</a>
+      <a class="px-6 py-2 bg-white border-solid border-black border-2 text-black text-center hover:bg-black hover:text-white hover:border-solid hover:border-2 hover:border-black transition duration-300 rounded-3xl text-base font-medium"
+      href="#"> Voir les produits </a>
+    </div>
+
+
+    <article class=" flex gap-8 ml-8">
+      <section class="menu">
+        <img
+          class="w-24 aspect-square object-cover"
+          src="../assets/saucisson.png"
+          alt="icon de saucisse"
+        />
+        <h2 class="">Charcuterie</h2>
+      </section>
+      <section class="menu">
+        <img
+          class="w-24 aspect-square object-fill"
+          src="../assets/porte-cles.png"
+          alt="icon de saucisse"
+        />
+        <h2 class="">Accessoires</h2>
+      </section>
+      <section class="menu-active">
+        <img
+          class="w-24 aspect-square object-cover"
+          src="../assets/t-shirt.png"
+          alt="icon de saucisse"
+        />
+        <h2 class="">Vêtements</h2>
+      </section>
+    </article>
+  </div>
+
+
+
+
+
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Header mobile</h2>
+
+
+
+
+
+  <header class="flex flex-col gap-8 justify-center items-center">
+    <article class="relative ml-8 max-w-md flex flex-col place-items-center z-10">
+      <img
+      class="border-8 border-solid border-rouge-base rounded-lg"
+      src="../assets/saucisson-pur-porc.jpg">
+      
+      <button class=" justify-center absolute p-3 bg-rouge-base text-white font-ff-sans rounded-full top-20 left-10">Cochonou, le cochon pur porc de chez nous !</button>
+      <a 
+      class=" absolute w-25 px-6 py-2 top-40 left-10 bg-white border-solid border-black border-2 text-black text-center hover:bg-black hover:text-white hover:border-solid hover:border-2 hover:border-black transition duration-300 rounded-3xl text-base font-medium"
+      href="#">
+      Voir les produits
+      </a>
+    </article>
+    <nav class="flex gap-4 ml-8">
+      <a class="menu__mob" href=""> Accessoires </a>
+      <a class="menu__mob-activate" href=""> Vêtements </a>
+      <a class="menu__mob" href=""> Charcuterie </a>
+    </nav>
+  </header>
+
+
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Produit</h2>
+
+
+
+  <article class="flex flex-col mx-8 gap-2 w-4/5 ">
+    <section class="flex bg-white rounded-2xl justify-between items-center px-4 py-2">
+      <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M27.2812 7.71882C27.8507 8.28834 27.8507 9.2117 27.2812 9.78122L9.78122 27.2812C9.2117 27.8507 8.28834 27.8507 7.71882 27.2812C7.14931 26.7117 7.14931 25.7883 7.71882 25.2188L25.2188 7.71882C25.7883 7.14931 26.7117 7.14931 27.2812 7.71882Z"
+          fill="#33363F" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M7.71878 7.71882C7.14927 8.28834 7.14927 9.2117 7.71878 9.78122L25.2188 27.2812C25.7883 27.8507 26.7117 27.8507 27.2812 27.2812C27.8507 26.7117 27.8507 25.7883 27.2812 25.2188L9.78118 7.71882C9.21166 7.14931 8.2883 7.14931 7.71878 7.71882Z"
+          fill="#33363F" />
+      </svg>
+      <img class="w-16 aspect-square" src="../assets/Cochonou-logo.png" alt="logo de Cochonou">
+    </section>
+    <section class="flex gap-2">
+      <section class="flex flex-col gap-2 ">
+        <section class="flex bg-white rounded-2xl p-2 h-full">
+          <img class="rounded-2xl object-cover" src="../assets//saucisson planche.png" alt="image de saucisson">
+        </section>
+        <section class="bg-white rounded-2xl p-2">
+          <ul class="flex gap-4">
+            <li> <img class="rounded-2xl w-48 aspect-square object-cover" src="../assets/saucisson-pur-porc.jpg"
+                alt="image de saucisson"> </li>
+            <li> <img class="rounded-2xl w-48 aspect-square object-cover" src="../assets/saucisson-pur-porc.jpg"
+                alt="image de saucisson"> </li>
+            <li> <img class="rounded-2xl w-48 aspect-square object-cover" src="../assets/saucisson-pur-porc.jpg"
+                alt="image de saucisson"> </li>
+          </ul>
+        </section>
+      </section>
+      <section class="flex flex-col w-full h-full gap-2">
+        <section class="flex gap-2">
+          <section class="flex flex-col bg-white rounded-2xl p-2 w-full h-20">
+            <p class="uppercase text-gray-500"> Charcuterie </p>
+            <h3 class="h1class "> Saucisson sec</h3>
+          </section>
+          <section class="flex items-center justify-center bg-white rounded-2xl p-2 w-full h-20">
+            <select class="pl-2 pr-6 rounded-xl bg-white text-black h-12" name="options" id="options-select">
+              <option class="" value=""> option </option>
+              <option value="fume">Fumé</option>
+              <option value="noix">Au noix</option>
+              <option value="pimente">Pimenté</option>
+            </select>
+          </section>
+        </section>
+        <section class="flex flex-col bg-white rounded-2xl p-2 gap-4 h-full overflow-hidden">
+          <div class="flex flex-col gap-2">
+            <h3 class="h3class "> Description </h3>
+            <p> Le saucisson pur porc, c'est un petit coquin charcutier. Avec sa robe de graisse, il se fait désirer.
+              Quand tu le tranches, c'est comme dévoiler un secret juteux. Son parfum enivre la pièce, et tout le monde
+              se rue pour en avoir une bouchée. C'est l'invité star de l'apéro, le roi des saveurs porcines, un régal
+              cochonou qui met de la joie dans la bouche et des sourires sur les visages. Un vrai coquin, je vous dis !
+            </p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="h3class"> Ingrédient </h3>
+            <ul>
+              <li> Viande de porc : C'est l'ingrédient principal. La viande de porc est hachée et utilisée pour former
+                le noyau du saucisson. </li>
+              <li> Gras de porc : Le gras de porc est ajouté pour donner au saucisson sa texture moelleuse et son goût
+                caractéristique. </li>
+              <li> Sel : Le sel est utilisé comme agent de conservation et pour assaisonner la viande. </li>
+              <li> Poivre : Le poivre moulu est souvent ajouté pour donner de la saveur au saucisson. </li>
+              <li>Ail : Certaines recettes peuvent inclure de l'ail pour ajouter de la saveur.</li>
+              <li>Autres épices : Selon la recette, d'autres épices ou herbes aromatiques peuvent être utilisées pour
+                parfumer le saucisson.</li>
+              <li> Boyau naturel ou artificiel : Le mélange de viande et d'épices est enfilé dans un boyau naturel ou
+                artificiel pour donner au saucisson sa forme caractéristique. </li>
+            </ul>
+          </div>
+          <section class="flex gap-4 bg-white justify-center">
+            <a class="px-12 py-4 bg-white border-solid border-black border-2 text-black text-center hover:bg-black hover:text-white hover:border-solid hover:border-2 hover:border-black transition duration-300 rounded-3xl"
+              href="#">
+              Voir le produit
+            </a>
+            <div class="flex gap-2 bg-white items-center px-4 py-2 pr-6 rounded-xl">
+              <div class="w-4 h-4 bg-green-500 rounded-full"></div>
+              <p>Disponible</p>
+            </div>
+          </section>
+        </section>
+
+
+      </section>
+  </article>
+
+
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Card mob</h2>
+
+  <div
+    class="relative group duration-500 cursor-pointer group overflow-hidden  text-gray-50 h-72 w-56  rounded-2xl hover:duration-700 ml-8">
+    <div class="w-56 h-72 bg-img bg-cover text-gray-800">
+      <div class="flex flex-row justify-between">
+        <svg class="fill-current stroke-current w-8 h-8 p-2 hover:bg-rouge-1  rounded-full m-1" height="100"
+          preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" width="100" x="0" xmlns="http://www.w3.org/2000/svg"
+          y="0">
+          <path class=""
+            d="M15.8,32.9V15.8m0,0H32.9m-17.1,0L37.2,37.2m47-4.3V15.8m0,0H67.1m17.1,0L62.8,37.2m-47,29.9V84.2m0,0H32.9m-17.1,0L37.2,62.8m47,21.4L62.8,62.8M84.2,84.2V67.1m0,17.1H67.1"
+            fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+          </path>
+        </svg>
+      </div>
+    </div>
+    <div
+      class="absolute bg-rouge-opa70 -bottom-56 w-56 p-3 flex flex-col gap-4 group-hover:-bottom-0 group-hover:duration-600 duration-500">
+      <p class="text-gray-500 font-medium uppercase">Vêtements</p>
+      <h3 class="text-rouge-base h3class">Bob Vichy</h3>
+      <a class="px-8 py-4 bg-white border-solid border-black border-2 text-black text-center hover:bg-black hover:text-white hover:border-solid hover:border-2 hover:border-black transition duration-300 rounded-3xl text-base"
+        href="#">
+        Voir le produit
+      </a>
+      <ul class="flex gap-8 justify-center text-lg text-center">
+        <li class="flex flex-col justify-between gap-4">
+          <h3 class="text-black">Prix</h3>
+          <p class="font-bold text-black">3.50€</p>
+        </li>
+        <li>
+          <div class="w-0.5 bg-black h-full"></div>
+        </li>
+        <li class="flex flex-col justify-between">
+          <h3 class="text-black">Avis</h3>
+          <svg class="text-rouge-base" width="80" height="19" viewBox="0 0 115 19" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M9.88892 0L12.0218 6.56434H18.924L13.34 10.6213L15.4729 17.1857L9.88892 13.1287L4.30496 17.1857L6.43784 10.6213L0.853879 6.56434H7.75603L9.88892 0Z"
+              fill="currentColor" />
+            <path
+              d="M33.8889 0L36.0218 6.56434H42.924L37.34 10.6213L39.4729 17.1857L33.8889 13.1287L28.305 17.1857L30.4378 10.6213L24.8539 6.56434H31.756L33.8889 0Z"
+              fill="currentColor" />
+            <path
+              d="M57.3889 0L59.4095 6.56434H65.9484L60.6584 10.6213L62.679 17.1857L57.3889 13.1287L52.0988 17.1857L54.1195 10.6213L48.8294 6.56434H55.3683L57.3889 0Z"
+              fill="currentColor" />
+            <path
+              d="M80.8889 0L83.0218 6.56434H89.924L84.34 10.6213L86.4729 17.1857L80.8889 13.1287L75.305 17.1857L77.4378 10.6213L71.8539 6.56434H78.756L80.8889 0Z"
+              fill="currentColor" />
+            <path class="text-rouge-20"
+              d="M104.889 0L107.022 6.56434H113.924L108.34 10.6213L110.473 17.1857L104.889 13.1287L99.305 17.1857L101.438 10.6213L95.8539 6.56434H102.756L104.889 0Z"
+              fill="currentColor" />
+          </svg>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Card</h2>
+
+  <article
+    class="max-w-2xl p-4 bg-white flex gap-8 rounded-3xl items-center aspect-video ml-8 border-solid border-4 border-black">
+    <section class="max-w-xs flex h-full">
+      <img class="rounded-3xl object-cover" src="../assets/saucisson-pur-porc.jpg" alt="Image de saucisson" />
+    </section>
+    <section class="flex flex-col text-center h-full justify-between items-center">
+      <h2 class="text-4xl font-bold text-rouge-base">Saucisson pur porc</h2>
+      <a class="px-12 py-4 bg-white border-solid border-black border-2 text-black text-center hover:bg-black hover:text-white hover:border-solid hover:border-2 hover:border-black transition duration-300 rounded-3xl"
+        href="#">
+        Voir le produit
+      </a>
+      <ul class="flex gap-4 text-2xl justify-center">
+        <li class="flex flex-col h-full justify-between ">
+          <h3>Prix</h3>
+          <p class="font-bold text-rouge-base">3.50€</p>
+        </li>
+        <li>
+          <div class="w-0.5 bg-black h-full"></div>
+        </li>
+        <li class="flex flex-col justify-between">
+          <h3 class="">Avis</h3>
+          <svg class="text-rouge-base" width="115" height="25" viewBox="0 0 115 19" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M9.88892 0L12.0218 6.56434H18.924L13.34 10.6213L15.4729 17.1857L9.88892 13.1287L4.30496 17.1857L6.43784 10.6213L0.853879 6.56434H7.75603L9.88892 0Z"
+              fill="currentColor" />
+            <path
+              d="M33.8889 0L36.0218 6.56434H42.924L37.34 10.6213L39.4729 17.1857L33.8889 13.1287L28.305 17.1857L30.4378 10.6213L24.8539 6.56434H31.756L33.8889 0Z"
+              fill="currentColor" />
+            <path
+              d="M57.3889 0L59.4095 6.56434H65.9484L60.6584 10.6213L62.679 17.1857L57.3889 13.1287L52.0988 17.1857L54.1195 10.6213L48.8294 6.56434H55.3683L57.3889 0Z"
+              fill="currentColor" />
+            <path
+              d="M80.8889 0L83.0218 6.56434H89.924L84.34 10.6213L86.4729 17.1857L80.8889 13.1287L75.305 17.1857L77.4378 10.6213L71.8539 6.56434H78.756L80.8889 0Z"
+              fill="currentColor" />
+            <path class="text-rouge-10"
+              d="M104.889 0L107.022 6.56434H113.924L108.34 10.6213L110.473 17.1857L104.889 13.1287L99.305 17.1857L101.438 10.6213L95.8539 6.56434H102.756L104.889 0Z"
+              fill="currentColor" />
+          </svg>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Card Mobile</h2>
+
+  <article
+    class="p-4 bg-white flex flex-col gap-8 rounded-3xl ml-8 max-w-xs border-solid border-4 border-black overflow-hidden">
+    <section class="flex justify-center">
+      <img class="rounded-3xl object-cover h-60" src="../assets/saucisson-pur-porc.jpg" alt="Image de saucisson" />
+    </section>
+    <section class="flex flex-col text-center h-full justify-between items-center gap-8">
+      <h2 class="text-2xl font-bold">Saucisson pur porc</h2>
+      <a class="px-8 py-4 bg-white border-solid border-black border-2 text-black text-center hover:bg-black hover:text-white hover:border-solid hover:border-2 hover:border-black transition duration-300 rounded-3xl text-base"
+        href="#">
+        Voir le produit
+      </a>
+      <ul class="flex gap-8 text-lg justify-center">
+        <li class="flex flex-col justify-between gap-4">
+          <h3>Prix</h3>
+          <p class="font-bold">3.50€</p>
+        </li>
+        <li>
+          <div class="w-0.5 bg-black h-full"></div>
+        </li>
+        <li class="flex flex-col justify-between">
+          <h3 class="">Avis</h3>
+          <svg width="80" height="19" viewBox="0 0 115 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M9.88892 0L12.0218 6.56434H18.924L13.34 10.6213L15.4729 17.1857L9.88892 13.1287L4.30496 17.1857L6.43784 10.6213L0.853879 6.56434H7.75603L9.88892 0Z"
+              fill="black" />
+            <path
+              d="M33.8889 0L36.0218 6.56434H42.924L37.34 10.6213L39.4729 17.1857L33.8889 13.1287L28.305 17.1857L30.4378 10.6213L24.8539 6.56434H31.756L33.8889 0Z"
+              fill="black" />
+            <path
+              d="M57.3889 0L59.4095 6.56434H65.9484L60.6584 10.6213L62.679 17.1857L57.3889 13.1287L52.0988 17.1857L54.1195 10.6213L48.8294 6.56434H55.3683L57.3889 0Z"
+              fill="black" />
+            <path
+              d="M80.8889 0L83.0218 6.56434H89.924L84.34 10.6213L86.4729 17.1857L80.8889 13.1287L75.305 17.1857L77.4378 10.6213L71.8539 6.56434H78.756L80.8889 0Z"
+              fill="black" />
+            <path
+              d="M104.889 0L107.022 6.56434H113.924L108.34 10.6213L110.473 17.1857L104.889 13.1287L99.305 17.1857L101.438 10.6213L95.8539 6.56434H102.756L104.889 0Z"
+              fill="#D9D9D9" />
+          </svg>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Menu</h2>
+
+
+  <div class="flex flex-col gap-4">
+    <article class="flex gap-8 ml-8">
+      <section class="menu">
+        <img class="w-24 aspect-square object-cover" src="../assets/saucisson.png" alt="icon de saucisse" />
+        <h2 class="">Charcuterie</h2>
+      </section>
+      <section class="menu">
+        <img class="w-24 aspect-square object-fill" src="../assets/porte-cles.png" alt="icon de saucisse" />
+        <h2 class="">Accessoires</h2>
+      </section>
+      <section class="menu">
+        <img class="w-24 aspect-square object-cover" src="../assets/t-shirt.png" alt="icon de saucisse" />
+        <h2 class="">Vêtements</h2>
+      </section>
+    </article>
+
+
+
+
+    <article class="flex gap-8 ml-8">
+      <section class="menu-active">
+        <img class="w-24 aspect-square object-cover" src="../assets/saucisson.png" alt="icon de saucisse" />
+        <h2 class="">Charcuterie</h2>
+      </section>
+      <section class="menu">
+        <img class="w-24 aspect-square object-fill" src="../assets/porte-cles.png" alt="icon de saucisse" />
+        <h2 class="">Accessoires</h2>
+      </section>
+      <section class="menu">
+        <img class="w-24 aspect-square object-cover" src="../assets/t-shirt.png" alt="icon de saucisse" />
+        <h2 class="">Vêtements</h2>
+      </section>
+    </article>
+
+
+
+
+    <article class="flex gap-8 ml-8">
+      <section class="menu">
+        <img class="w-24 aspect-square object-cover" src="../assets/saucisson.png" alt="icon de saucisse" />
+        <h2 class="">Charcuterie</h2>
+      </section>
+      <section class="menu-active">
+        <img class="w-24 aspect-square object-fill" src="../assets/porte-cles.png" alt="icon de saucisse" />
+        <h2 class="">Accessoires</h2>
+      </section>
+      <section class="menu">
+        <img class="w-24 aspect-square object-cover" src="../assets/t-shirt.png" alt="icon de saucisse" />
+        <h2 class="">Vêtements</h2>
+      </section>
+    </article>
+
+
+
+
+    <article class="flex gap-8 ml-8">
+      <section class="menu">
+        <img class="w-24 aspect-square object-cover" src="../assets/saucisson.png" alt="icon de saucisse" />
+        <h2 class="">Charcuterie</h2>
+      </section>
+      <section class="menu">
+        <img class="w-24 aspect-square object-fill" src="../assets/porte-cles.png" alt="icon de saucisse" />
+        <h2 class="">Accessoires</h2>
+      </section>
+      <section class="menu-active">
+        <img class="w-24 aspect-square object-cover" src="../assets/t-shirt.png" alt="icon de saucisse" />
+        <h2 class="">Vêtements</h2>
+      </section>
+    </article>
+  </div>
+
+
+
+
+
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Menu mobile</h2>
+
+  <nav class="flex gap-4 ml-8 justify-center items-center pt-10 lg:pt-4">
+    <a class="menu__mob" href=""> Accessoires </a>
+    <a class="menu__mob" href=""> Vêtements </a>
+    <a class="menu__mob" href=""> Charcuterie </a>
+  </nav>
+
+  <nav class="flex gap-4 ml-8">
+    <a class="menu__mob-activate" href=""> Accessoires </a>
+    <a class="menu__mob" href=""> Vêtements </a>
+    <a class="menu__mob" href=""> Charcuterie </a>
+  </nav>
+
+  <nav class="flex gap-4 ml-8">
+    <a class="menu__mob" href=""> Accessoires </a>
+    <a class="menu__mob-activate" href=""> Vêtements </a>
+    <a class="menu__mob" href=""> Charcuterie </a>
+  </nav>
+
+  <nav class="flex gap-4 ml-8">
+    <a class="menu__mob" href=""> Accessoires </a>
+    <a class="menu__mob" href=""> Vêtements </a>
+    <a class="menu__mob-activate" href=""> Charcuterie </a>
+  </nav>
+
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Footer</h2>
+
+  <article
+    class="flex flex-col bg-rouge-1 border-4 border-solid border-rouge-80 gap-32 place-items-center pb-8 relative z-10">
+    <section class="flex flex-col gap-8">
+      <section class="flex justify-center">
+        <img class="w-24 aspect-square" src="../assets/Cochonou-logo.png" alt="logo Cochonou" />
+      </section>
+
+      <section>
+        <ul class="flex gap-32">
+          <li class="flex flex-col gap-6 uppercase">
+            <a class="categorie__titre hover:text-rouge-100" href="">
+              Actualités
+            </a>
+            <ul>
+              <li class="categorie__rubrique">
+                <a class="" href=""> Notre blog</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="flex flex-col gap-4 uppercase">
+            <a class="categorie__titre" href=""> Notre marque </a>
+            <ul>
+              <li class="categorie__rubrique">
+                <a class="" href=""> L'Entreprise </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="flex flex-col gap-4 uppercase">
+            <a href="" class="categorie__titre"> produits </a>
+            <ul>
+              <li class="categorie__rubrique">
+                <a href=""> Charcuterie </a>
+              </li>
+              <li class="categorie__rubrique">
+                <a href=""> Vêtements</a>
+              </li>
+              <li class="categorie__rubrique">
+                <a href=""> Accessoires </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="flex flex-col gap-4 uppercase">
+            <a href="" class="categorie__titre"> à propos </a>
+            <ul>
+              <li class="categorie__rubrique">
+                <a href=""> Mentions légales </a>
+              </li>
+              <li class="categorie__rubrique">
+                <a href=""> Conditions générales de vente </a>
+              </li>
+              <li class="categorie__rubrique">
+                <a href=""> Gestion des cookies</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="flex flex-col gap-16 w-full items-center">
+      <section class="flex items-center justify-center rounded-tl-lg rounded-bl-lg">
+        <input type="email"
+          class="pl-2 py-2 rounded-tl-lg rounded-bl-lg outline-none text-rouge-base placeholder:text-red-400 border-2 border-rouge-base border-solid font-semibold focus:border-b-4 focus:pt-2.5 transition-all duration-100"
+          placeholder="S'inscrire à la newsletter" id="email" autocomplete="off" />
+        <input type="button" value="Je m'inscris"
+          class="outline-none bg-red-500 border-r-2 border-y-2 border-rouge-base border-solid p-2 rounded-tr-lg rounded-br-lg text-white font-semibold hover:bg-red-700 transition-all duration-100 cursor-pointer hover:border-b-4" />
+      </section>
+
+      <div class="w-10/12 h-0.5 bg-rouge-base"></div>
+
+      <section class="flex gap-4 text-rouge-base">
+        <a class="" href="">
+          <img src="../assets/fb-logo.svg" alt="lien vers Facebook image du logo" />
+        </a>
+        <a class="" href="">
+          <img src="../assets/insta-logo.svg" alt="lien vers Instagram image du logo" />
+        </a>
+        <a class="" href="">
+          <img src="../assets/twitter-logo.svg" alt="lien vers Twitter image du logo" />
+        </a>
+      </section>
+    </section>
+  </article>
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Footer mobile</h2>
+
+
+  <footer class="flex flex-col items-center justify-center gap-12 bg-rouge-1 py-4">
+    <img class="w-20 aspect-square " src="../assets/Cochonou-logo.png" alt="Logo Cochonou">
+
+    <section class="flex items-center justify-center rounded-tl-lg rounded-bl-lg">
+      <input type="email"
+        class="pl-2 py-2 rounded-tl-lg rounded-bl-lg outline-none text-rouge-base placeholder:text-red-400 border-2 border-rouge-base border-solid font-semibold focus:border-b-4 focus:pt-2.5 transition-all duration-100"
+        placeholder="S'inscrire à la newsletter" id="email" autocomplete="off" />
+      <input type="button" value="Je m'inscris"
+        class="outline-none bg-red-500 border-r-2 border-y-2 border-rouge-base border-solid p-2 rounded-tr-lg rounded-br-lg text-white font-semibold hover:bg-red-700 transition-all duration-100 cursor-pointer hover:border-b-4" />
+    </section>
+
+    <section class="flex gap-4 text-rouge-base">
+      <a class="" href="">
+        <img src="../assets/fb-logo.svg" alt="lien vers Facebook image du logo" />
+      </a>
+      <a class="" href="">
+        <img src="../assets/insta-logo.svg" alt="lien vers Instagram image du logo" />
+      </a>
+      <a class="" href="">
+        <img src="../assets/twitter-logo.svg" alt="lien vers Twitter image du logo" />
+      </a>
+    </section>
+  </footer>
+
+
+
+
+
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Navbar</h2>
+
+  <article class="flex items-center justify-between mb-8 px-24">
+    <section>
+      <img class="w-16 aspect-square" src="../assets/Cochonou-logo.png" alt="logo Cochonou" />
+    </section>
+
+    <section>
+      <ul class="flex gap-6 text-white items-center">
+        <li class="">
+          <a href=""> Accueil </a>
+        </li>
+        <li class="">
+          <a href=""> Actualités </a>
+        </li>
+        <li class="">
+          <a href=""> Notre marque </a>
+        </li>
+        <li class="">
+          <a href=""> Produits </a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <ul class="flex gap-4">
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M41.7623 11.079C41.6413 10.9067 41.4808 10.7661 41.2943 10.669C41.1078 10.5719 40.9007 10.5212 40.6906 10.5211H12.6952L10.576 3.19585C9.74498 0.311388 7.77024 0 6.96031 0H1.30991C0.585683 0 0 0.587735 0 1.31298C0 2.03823 0.586343 2.62593 1.30987 2.62593H6.95961C7.13835 2.62593 7.6838 2.62593 8.05583 3.91445L15.3459 30.7698C15.5042 31.3364 16.0193 31.7277 16.6069 31.7277H34.4135C34.9663 31.7277 35.4596 31.3806 35.6463 30.859L41.9226 12.2782C42.067 11.8756 42.007 11.4274 41.7623 11.079H41.7623ZM33.4917 29.1025H17.6011L13.4314 13.1477H38.8282L33.4917 29.1025ZM30.8938 34.3888C29.0721 34.3888 27.596 35.8684 27.596 37.6944C27.596 39.5204 29.0721 41 30.8938 41C32.7155 41 34.1915 39.5204 34.1915 37.6944C34.1915 35.8684 32.7155 34.3888 30.8938 34.3888ZM19.0218 34.3888C17.2001 34.3888 15.724 35.8684 15.724 37.6944C15.724 39.5204 17.2001 41 19.0218 41C20.8435 41 22.3196 39.5204 22.3196 37.6944C22.3196 35.8684 20.8435 34.3888 19.0218 34.3888Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M42 21C42 9.429 32.571 0 21 0C9.429 0 0 9.429 0 21C0 27.09 2.625 32.571 6.783 36.414C6.783 36.435 6.783 36.435 6.762 36.456C6.972 36.666 7.224 36.834 7.434 37.023C7.56 37.128 7.665 37.233 7.791 37.317C8.169 37.632 8.589 37.926 8.988 38.22C9.135 38.325 9.261 38.409 9.408 38.514C9.807 38.787 10.227 39.039 10.668 39.27C10.815 39.354 10.983 39.459 11.13 39.543C11.55 39.774 11.991 39.984 12.453 40.173C12.621 40.257 12.789 40.341 12.957 40.404C13.419 40.593 13.881 40.761 14.343 40.908C14.511 40.971 14.679 41.034 14.847 41.076C15.351 41.223 15.855 41.349 16.359 41.475C16.506 41.517 16.653 41.559 16.821 41.58C17.409 41.706 17.997 41.79 18.606 41.853C18.69 41.853 18.774 41.874 18.858 41.895C19.572 41.958 20.286 42 21 42C21.714 42 22.428 41.958 23.121 41.895C23.205 41.895 23.289 41.874 23.373 41.853C23.982 41.79 24.57 41.706 25.158 41.58C25.305 41.559 25.452 41.496 25.62 41.475C26.124 41.349 26.649 41.244 27.132 41.076C27.3 41.013 27.468 40.95 27.636 40.908C28.098 40.74 28.581 40.593 29.022 40.404C29.19 40.341 29.358 40.257 29.526 40.173C29.967 39.984 30.408 39.774 30.849 39.543C31.017 39.459 31.164 39.354 31.311 39.27C31.731 39.018 32.151 38.787 32.571 38.514C32.718 38.43 32.844 38.325 32.991 38.22C33.411 37.926 33.81 37.632 34.188 37.317C34.314 37.212 34.419 37.107 34.545 37.023C34.776 36.834 35.007 36.645 35.217 36.456C35.217 36.435 35.217 36.435 35.196 36.414C39.375 32.571 42 27.09 42 21ZM31.374 31.437C25.683 27.615 16.359 27.615 10.626 31.437C9.702 32.046 8.946 32.76 8.316 33.537C5.124 30.303 3.15 25.872 3.15 21C3.15 11.151 11.151 3.15 21 3.15C30.849 3.15 38.85 11.151 38.85 21C38.85 25.872 36.876 30.303 33.684 33.537C33.075 32.76 32.298 32.046 31.374 31.437Z"
+                fill="currentColor" />
+              <path
+                d="M21 10.3524C16.653 10.3524 13.125 13.8804 13.125 18.2274C13.125 22.4904 16.464 25.9554 20.895 26.0814H21.084H21.231H21.273C25.515 25.9344 28.854 22.4904 28.875 18.2274C28.875 13.8804 25.347 10.3524 21 10.3524Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+  <article class="flex items-center justify-between mb-8 px-24">
+    <section>
+      <img class="w-16 aspect-square" src="../assets/Cochonou-logo.png" alt="logo Cochonou" />
+    </section>
+
+    <section>
+      <ul class="flex gap-6 text-white items-center">
+        <li class="navbar__cat-active">
+          <a href=""> Accueil </a>
+        </li>
+        <li class="navbar__cat">
+          <a href=""> Actualités </a>
+        </li>
+        <li class="navbar__cat">
+          <a href=""> Notre marque </a>
+        </li>
+        <li class="navbar__cat">
+          <a href=""> Produits </a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <ul class="flex gap-4">
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M41.7623 11.079C41.6413 10.9067 41.4808 10.7661 41.2943 10.669C41.1078 10.5719 40.9007 10.5212 40.6906 10.5211H12.6952L10.576 3.19585C9.74498 0.311388 7.77024 0 6.96031 0H1.30991C0.585683 0 0 0.587735 0 1.31298C0 2.03823 0.586343 2.62593 1.30987 2.62593H6.95961C7.13835 2.62593 7.6838 2.62593 8.05583 3.91445L15.3459 30.7698C15.5042 31.3364 16.0193 31.7277 16.6069 31.7277H34.4135C34.9663 31.7277 35.4596 31.3806 35.6463 30.859L41.9226 12.2782C42.067 11.8756 42.007 11.4274 41.7623 11.079H41.7623ZM33.4917 29.1025H17.6011L13.4314 13.1477H38.8282L33.4917 29.1025ZM30.8938 34.3888C29.0721 34.3888 27.596 35.8684 27.596 37.6944C27.596 39.5204 29.0721 41 30.8938 41C32.7155 41 34.1915 39.5204 34.1915 37.6944C34.1915 35.8684 32.7155 34.3888 30.8938 34.3888ZM19.0218 34.3888C17.2001 34.3888 15.724 35.8684 15.724 37.6944C15.724 39.5204 17.2001 41 19.0218 41C20.8435 41 22.3196 39.5204 22.3196 37.6944C22.3196 35.8684 20.8435 34.3888 19.0218 34.3888Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M42 21C42 9.429 32.571 0 21 0C9.429 0 0 9.429 0 21C0 27.09 2.625 32.571 6.783 36.414C6.783 36.435 6.783 36.435 6.762 36.456C6.972 36.666 7.224 36.834 7.434 37.023C7.56 37.128 7.665 37.233 7.791 37.317C8.169 37.632 8.589 37.926 8.988 38.22C9.135 38.325 9.261 38.409 9.408 38.514C9.807 38.787 10.227 39.039 10.668 39.27C10.815 39.354 10.983 39.459 11.13 39.543C11.55 39.774 11.991 39.984 12.453 40.173C12.621 40.257 12.789 40.341 12.957 40.404C13.419 40.593 13.881 40.761 14.343 40.908C14.511 40.971 14.679 41.034 14.847 41.076C15.351 41.223 15.855 41.349 16.359 41.475C16.506 41.517 16.653 41.559 16.821 41.58C17.409 41.706 17.997 41.79 18.606 41.853C18.69 41.853 18.774 41.874 18.858 41.895C19.572 41.958 20.286 42 21 42C21.714 42 22.428 41.958 23.121 41.895C23.205 41.895 23.289 41.874 23.373 41.853C23.982 41.79 24.57 41.706 25.158 41.58C25.305 41.559 25.452 41.496 25.62 41.475C26.124 41.349 26.649 41.244 27.132 41.076C27.3 41.013 27.468 40.95 27.636 40.908C28.098 40.74 28.581 40.593 29.022 40.404C29.19 40.341 29.358 40.257 29.526 40.173C29.967 39.984 30.408 39.774 30.849 39.543C31.017 39.459 31.164 39.354 31.311 39.27C31.731 39.018 32.151 38.787 32.571 38.514C32.718 38.43 32.844 38.325 32.991 38.22C33.411 37.926 33.81 37.632 34.188 37.317C34.314 37.212 34.419 37.107 34.545 37.023C34.776 36.834 35.007 36.645 35.217 36.456C35.217 36.435 35.217 36.435 35.196 36.414C39.375 32.571 42 27.09 42 21ZM31.374 31.437C25.683 27.615 16.359 27.615 10.626 31.437C9.702 32.046 8.946 32.76 8.316 33.537C5.124 30.303 3.15 25.872 3.15 21C3.15 11.151 11.151 3.15 21 3.15C30.849 3.15 38.85 11.151 38.85 21C38.85 25.872 36.876 30.303 33.684 33.537C33.075 32.76 32.298 32.046 31.374 31.437Z"
+                fill="currentColor" />
+              <path
+                d="M21 10.3524C16.653 10.3524 13.125 13.8804 13.125 18.2274C13.125 22.4904 16.464 25.9554 20.895 26.0814H21.084H21.231H21.273C25.515 25.9344 28.854 22.4904 28.875 18.2274C28.875 13.8804 25.347 10.3524 21 10.3524Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+
+  <article class="flex items-center justify-between mb-8 px-24">
+    <section>
+      <img class="w-16 aspect-square" src="../assets/Cochonou-logo.png" alt="logo Cochonou" />
+    </section>
+
+    <section>
+      <ul class="flex gap-6 text-white items-center">
+        <li class="navbar__cat">
+          <a href=""> Accueil </a>
+        </li>
+        <li class="navbar__cat-active">
+          <a href=""> Actualités </a>
+        </li>
+        <li class="navbar__cat">
+          <a href=""> Notre marque </a>
+        </li>
+        <li class="navbar__cat">
+          <a href=""> Produits </a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <ul class="flex gap-4">
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M41.7623 11.079C41.6413 10.9067 41.4808 10.7661 41.2943 10.669C41.1078 10.5719 40.9007 10.5212 40.6906 10.5211H12.6952L10.576 3.19585C9.74498 0.311388 7.77024 0 6.96031 0H1.30991C0.585683 0 0 0.587735 0 1.31298C0 2.03823 0.586343 2.62593 1.30987 2.62593H6.95961C7.13835 2.62593 7.6838 2.62593 8.05583 3.91445L15.3459 30.7698C15.5042 31.3364 16.0193 31.7277 16.6069 31.7277H34.4135C34.9663 31.7277 35.4596 31.3806 35.6463 30.859L41.9226 12.2782C42.067 11.8756 42.007 11.4274 41.7623 11.079H41.7623ZM33.4917 29.1025H17.6011L13.4314 13.1477H38.8282L33.4917 29.1025ZM30.8938 34.3888C29.0721 34.3888 27.596 35.8684 27.596 37.6944C27.596 39.5204 29.0721 41 30.8938 41C32.7155 41 34.1915 39.5204 34.1915 37.6944C34.1915 35.8684 32.7155 34.3888 30.8938 34.3888ZM19.0218 34.3888C17.2001 34.3888 15.724 35.8684 15.724 37.6944C15.724 39.5204 17.2001 41 19.0218 41C20.8435 41 22.3196 39.5204 22.3196 37.6944C22.3196 35.8684 20.8435 34.3888 19.0218 34.3888Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M42 21C42 9.429 32.571 0 21 0C9.429 0 0 9.429 0 21C0 27.09 2.625 32.571 6.783 36.414C6.783 36.435 6.783 36.435 6.762 36.456C6.972 36.666 7.224 36.834 7.434 37.023C7.56 37.128 7.665 37.233 7.791 37.317C8.169 37.632 8.589 37.926 8.988 38.22C9.135 38.325 9.261 38.409 9.408 38.514C9.807 38.787 10.227 39.039 10.668 39.27C10.815 39.354 10.983 39.459 11.13 39.543C11.55 39.774 11.991 39.984 12.453 40.173C12.621 40.257 12.789 40.341 12.957 40.404C13.419 40.593 13.881 40.761 14.343 40.908C14.511 40.971 14.679 41.034 14.847 41.076C15.351 41.223 15.855 41.349 16.359 41.475C16.506 41.517 16.653 41.559 16.821 41.58C17.409 41.706 17.997 41.79 18.606 41.853C18.69 41.853 18.774 41.874 18.858 41.895C19.572 41.958 20.286 42 21 42C21.714 42 22.428 41.958 23.121 41.895C23.205 41.895 23.289 41.874 23.373 41.853C23.982 41.79 24.57 41.706 25.158 41.58C25.305 41.559 25.452 41.496 25.62 41.475C26.124 41.349 26.649 41.244 27.132 41.076C27.3 41.013 27.468 40.95 27.636 40.908C28.098 40.74 28.581 40.593 29.022 40.404C29.19 40.341 29.358 40.257 29.526 40.173C29.967 39.984 30.408 39.774 30.849 39.543C31.017 39.459 31.164 39.354 31.311 39.27C31.731 39.018 32.151 38.787 32.571 38.514C32.718 38.43 32.844 38.325 32.991 38.22C33.411 37.926 33.81 37.632 34.188 37.317C34.314 37.212 34.419 37.107 34.545 37.023C34.776 36.834 35.007 36.645 35.217 36.456C35.217 36.435 35.217 36.435 35.196 36.414C39.375 32.571 42 27.09 42 21ZM31.374 31.437C25.683 27.615 16.359 27.615 10.626 31.437C9.702 32.046 8.946 32.76 8.316 33.537C5.124 30.303 3.15 25.872 3.15 21C3.15 11.151 11.151 3.15 21 3.15C30.849 3.15 38.85 11.151 38.85 21C38.85 25.872 36.876 30.303 33.684 33.537C33.075 32.76 32.298 32.046 31.374 31.437Z"
+                fill="currentColor" />
+              <path
+                d="M21 10.3524C16.653 10.3524 13.125 13.8804 13.125 18.2274C13.125 22.4904 16.464 25.9554 20.895 26.0814H21.084H21.231H21.273C25.515 25.9344 28.854 22.4904 28.875 18.2274C28.875 13.8804 25.347 10.3524 21 10.3524Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+
+  <article class="flex items-center justify-between mb-8 px-24">
+    <section>
+      <img class="w-16 aspect-square" src="../assets/Cochonou-logo.png" alt="logo Cochonou" />
+    </section>
+
+    <section>
+      <ul class="flex gap-6 text-white items-center">
+        <li class="navbar__cat">
+          <a href=""> Accueil </a>
+        </li>
+        <li class="navbar__cat">
+          <a href=""> Actualités </a>
+        </li>
+        <li class="navbar__cat-active">
+          <a href=""> Notre marque </a>
+        </li>
+        <li class="navbar__cat">
+          <a href=""> Produits </a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <ul class="flex gap-4">
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M41.7623 11.079C41.6413 10.9067 41.4808 10.7661 41.2943 10.669C41.1078 10.5719 40.9007 10.5212 40.6906 10.5211H12.6952L10.576 3.19585C9.74498 0.311388 7.77024 0 6.96031 0H1.30991C0.585683 0 0 0.587735 0 1.31298C0 2.03823 0.586343 2.62593 1.30987 2.62593H6.95961C7.13835 2.62593 7.6838 2.62593 8.05583 3.91445L15.3459 30.7698C15.5042 31.3364 16.0193 31.7277 16.6069 31.7277H34.4135C34.9663 31.7277 35.4596 31.3806 35.6463 30.859L41.9226 12.2782C42.067 11.8756 42.007 11.4274 41.7623 11.079H41.7623ZM33.4917 29.1025H17.6011L13.4314 13.1477H38.8282L33.4917 29.1025ZM30.8938 34.3888C29.0721 34.3888 27.596 35.8684 27.596 37.6944C27.596 39.5204 29.0721 41 30.8938 41C32.7155 41 34.1915 39.5204 34.1915 37.6944C34.1915 35.8684 32.7155 34.3888 30.8938 34.3888ZM19.0218 34.3888C17.2001 34.3888 15.724 35.8684 15.724 37.6944C15.724 39.5204 17.2001 41 19.0218 41C20.8435 41 22.3196 39.5204 22.3196 37.6944C22.3196 35.8684 20.8435 34.3888 19.0218 34.3888Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M42 21C42 9.429 32.571 0 21 0C9.429 0 0 9.429 0 21C0 27.09 2.625 32.571 6.783 36.414C6.783 36.435 6.783 36.435 6.762 36.456C6.972 36.666 7.224 36.834 7.434 37.023C7.56 37.128 7.665 37.233 7.791 37.317C8.169 37.632 8.589 37.926 8.988 38.22C9.135 38.325 9.261 38.409 9.408 38.514C9.807 38.787 10.227 39.039 10.668 39.27C10.815 39.354 10.983 39.459 11.13 39.543C11.55 39.774 11.991 39.984 12.453 40.173C12.621 40.257 12.789 40.341 12.957 40.404C13.419 40.593 13.881 40.761 14.343 40.908C14.511 40.971 14.679 41.034 14.847 41.076C15.351 41.223 15.855 41.349 16.359 41.475C16.506 41.517 16.653 41.559 16.821 41.58C17.409 41.706 17.997 41.79 18.606 41.853C18.69 41.853 18.774 41.874 18.858 41.895C19.572 41.958 20.286 42 21 42C21.714 42 22.428 41.958 23.121 41.895C23.205 41.895 23.289 41.874 23.373 41.853C23.982 41.79 24.57 41.706 25.158 41.58C25.305 41.559 25.452 41.496 25.62 41.475C26.124 41.349 26.649 41.244 27.132 41.076C27.3 41.013 27.468 40.95 27.636 40.908C28.098 40.74 28.581 40.593 29.022 40.404C29.19 40.341 29.358 40.257 29.526 40.173C29.967 39.984 30.408 39.774 30.849 39.543C31.017 39.459 31.164 39.354 31.311 39.27C31.731 39.018 32.151 38.787 32.571 38.514C32.718 38.43 32.844 38.325 32.991 38.22C33.411 37.926 33.81 37.632 34.188 37.317C34.314 37.212 34.419 37.107 34.545 37.023C34.776 36.834 35.007 36.645 35.217 36.456C35.217 36.435 35.217 36.435 35.196 36.414C39.375 32.571 42 27.09 42 21ZM31.374 31.437C25.683 27.615 16.359 27.615 10.626 31.437C9.702 32.046 8.946 32.76 8.316 33.537C5.124 30.303 3.15 25.872 3.15 21C3.15 11.151 11.151 3.15 21 3.15C30.849 3.15 38.85 11.151 38.85 21C38.85 25.872 36.876 30.303 33.684 33.537C33.075 32.76 32.298 32.046 31.374 31.437Z"
+                fill="currentColor" />
+              <path
+                d="M21 10.3524C16.653 10.3524 13.125 13.8804 13.125 18.2274C13.125 22.4904 16.464 25.9554 20.895 26.0814H21.084H21.231H21.273C25.515 25.9344 28.854 22.4904 28.875 18.2274C28.875 13.8804 25.347 10.3524 21 10.3524Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+
+  <article class="flex items-center justify-between mb-8 px-24">
+    <section>
+      <img class="w-16 aspect-square" src="../assets/Cochonou-logo.png" alt="logo Cochonou" />
+    </section>
+
+    <section>
+      <ul class="flex gap-6 text-white items-center">
+        <li class="navbar__cat">
+          <a href=""> Accueil </a>
+        </li>
+        <li class="navbar__cat">
+          <a href=""> Actualités </a>
+        </li>
+        <li class="navbar__cat">
+          <a href=""> Notre marque </a>
+        </li>
+        <li class="navbar__cat-active">
+          <a href=""> Produits </a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <ul class="flex gap-4">
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M41.7623 11.079C41.6413 10.9067 41.4808 10.7661 41.2943 10.669C41.1078 10.5719 40.9007 10.5212 40.6906 10.5211H12.6952L10.576 3.19585C9.74498 0.311388 7.77024 0 6.96031 0H1.30991C0.585683 0 0 0.587735 0 1.31298C0 2.03823 0.586343 2.62593 1.30987 2.62593H6.95961C7.13835 2.62593 7.6838 2.62593 8.05583 3.91445L15.3459 30.7698C15.5042 31.3364 16.0193 31.7277 16.6069 31.7277H34.4135C34.9663 31.7277 35.4596 31.3806 35.6463 30.859L41.9226 12.2782C42.067 11.8756 42.007 11.4274 41.7623 11.079H41.7623ZM33.4917 29.1025H17.6011L13.4314 13.1477H38.8282L33.4917 29.1025ZM30.8938 34.3888C29.0721 34.3888 27.596 35.8684 27.596 37.6944C27.596 39.5204 29.0721 41 30.8938 41C32.7155 41 34.1915 39.5204 34.1915 37.6944C34.1915 35.8684 32.7155 34.3888 30.8938 34.3888ZM19.0218 34.3888C17.2001 34.3888 15.724 35.8684 15.724 37.6944C15.724 39.5204 17.2001 41 19.0218 41C20.8435 41 22.3196 39.5204 22.3196 37.6944C22.3196 35.8684 20.8435 34.3888 19.0218 34.3888Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="text-white" href="">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M42 21C42 9.429 32.571 0 21 0C9.429 0 0 9.429 0 21C0 27.09 2.625 32.571 6.783 36.414C6.783 36.435 6.783 36.435 6.762 36.456C6.972 36.666 7.224 36.834 7.434 37.023C7.56 37.128 7.665 37.233 7.791 37.317C8.169 37.632 8.589 37.926 8.988 38.22C9.135 38.325 9.261 38.409 9.408 38.514C9.807 38.787 10.227 39.039 10.668 39.27C10.815 39.354 10.983 39.459 11.13 39.543C11.55 39.774 11.991 39.984 12.453 40.173C12.621 40.257 12.789 40.341 12.957 40.404C13.419 40.593 13.881 40.761 14.343 40.908C14.511 40.971 14.679 41.034 14.847 41.076C15.351 41.223 15.855 41.349 16.359 41.475C16.506 41.517 16.653 41.559 16.821 41.58C17.409 41.706 17.997 41.79 18.606 41.853C18.69 41.853 18.774 41.874 18.858 41.895C19.572 41.958 20.286 42 21 42C21.714 42 22.428 41.958 23.121 41.895C23.205 41.895 23.289 41.874 23.373 41.853C23.982 41.79 24.57 41.706 25.158 41.58C25.305 41.559 25.452 41.496 25.62 41.475C26.124 41.349 26.649 41.244 27.132 41.076C27.3 41.013 27.468 40.95 27.636 40.908C28.098 40.74 28.581 40.593 29.022 40.404C29.19 40.341 29.358 40.257 29.526 40.173C29.967 39.984 30.408 39.774 30.849 39.543C31.017 39.459 31.164 39.354 31.311 39.27C31.731 39.018 32.151 38.787 32.571 38.514C32.718 38.43 32.844 38.325 32.991 38.22C33.411 37.926 33.81 37.632 34.188 37.317C34.314 37.212 34.419 37.107 34.545 37.023C34.776 36.834 35.007 36.645 35.217 36.456C35.217 36.435 35.217 36.435 35.196 36.414C39.375 32.571 42 27.09 42 21ZM31.374 31.437C25.683 27.615 16.359 27.615 10.626 31.437C9.702 32.046 8.946 32.76 8.316 33.537C5.124 30.303 3.15 25.872 3.15 21C3.15 11.151 11.151 3.15 21 3.15C30.849 3.15 38.85 11.151 38.85 21C38.85 25.872 36.876 30.303 33.684 33.537C33.075 32.76 32.298 32.046 31.374 31.437Z"
+                fill="currentColor" />
+              <path
+                d="M21 10.3524C16.653 10.3524 13.125 13.8804 13.125 18.2274C13.125 22.4904 16.464 25.9554 20.895 26.0814H21.084H21.231H21.273C25.515 25.9344 28.854 22.4904 28.875 18.2274C28.875 13.8804 25.347 10.3524 21 10.3524Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Navbar mobile</h2>
+
+  <div class="relative">
+    <!-- Hambureger icon -->
+    <div class="absolute top-10 right-24 text-4xl cursor-pointer lg:hidden">
+      <ion-icon class="text-rouge-base" name="menu" id="burger" onclick="Open(this)"></ion-icon>
+    </div>
+    <!-- Menu -->
+    <div
+      class="absolute w-0 h-screen bg-rouge-opa100 text-white flex flex-col justify-center items-center text-4xl overflow-hidden origin-left duration-300 lg:static lg:w-full lg:bg-inherit lg:text-rouge-base lg:h-min lg:flex-row lg:justify-between lg:px-24"
+      id="ham">
+      <section>
+        <img class="w-16 aspect-square lg:block hidden" src="../assets/Cochonou-logo.png" alt="logo Cochonou" />
+      </section>
+      <ul class="lg:flex lg:gap-8 text-center">
+        <li class="mb-6 hover:text-rouge-base  transition-colors duration-200 lg:transition-none  lg:hover:text-white lg:navbar__cat"> <a href="#"> Accueil </a></li>
+        <li class="mb-6 hover:text-rouge-base  transition-colors duration-200 lg:transition-none lg:hover:text-white lg:navbar__cat"> <a href="#"> Actualités </a></li>
+        <li class="mb-6 hover:text-rouge-base  transition-colors duration-200 lg:transition-none lg:hover:text-white lg:navbar__cat"> <a href="#"> Notre Marque </a></li>
+        <li class="mb-12 hover:text-rouge-base transition-colors duration-200 lg:transition-none  lg:hover:text-white lg:navbar__cat-active"> <a href="#"> Produits </a></li>
+      </ul>
+      <section class="flex  items-center justify-center">
+        <ul class="flex gap-4">
+          <li>
+            <a class="text-rouge-base hover:text-white" href="">
+              <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M41.7623 11.079C41.6413 10.9067 41.4808 10.7661 41.2943 10.669C41.1078 10.5719 40.9007 10.5212 40.6906 10.5211H12.6952L10.576 3.19585C9.74498 0.311388 7.77024 0 6.96031 0H1.30991C0.585683 0 0 0.587735 0 1.31298C0 2.03823 0.586343 2.62593 1.30987 2.62593H6.95961C7.13835 2.62593 7.6838 2.62593 8.05583 3.91445L15.3459 30.7698C15.5042 31.3364 16.0193 31.7277 16.6069 31.7277H34.4135C34.9663 31.7277 35.4596 31.3806 35.6463 30.859L41.9226 12.2782C42.067 11.8756 42.007 11.4274 41.7623 11.079H41.7623ZM33.4917 29.1025H17.6011L13.4314 13.1477H38.8282L33.4917 29.1025ZM30.8938 34.3888C29.0721 34.3888 27.596 35.8684 27.596 37.6944C27.596 39.5204 29.0721 41 30.8938 41C32.7155 41 34.1915 39.5204 34.1915 37.6944C34.1915 35.8684 32.7155 34.3888 30.8938 34.3888ZM19.0218 34.3888C17.2001 34.3888 15.724 35.8684 15.724 37.6944C15.724 39.5204 17.2001 41 19.0218 41C20.8435 41 22.3196 39.5204 22.3196 37.6944C22.3196 35.8684 20.8435 34.3888 19.0218 34.3888Z"
+                  fill="currentColor" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="text-rouge-base hover:text-white" href="">
+              <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M42 21C42 9.429 32.571 0 21 0C9.429 0 0 9.429 0 21C0 27.09 2.625 32.571 6.783 36.414C6.783 36.435 6.783 36.435 6.762 36.456C6.972 36.666 7.224 36.834 7.434 37.023C7.56 37.128 7.665 37.233 7.791 37.317C8.169 37.632 8.589 37.926 8.988 38.22C9.135 38.325 9.261 38.409 9.408 38.514C9.807 38.787 10.227 39.039 10.668 39.27C10.815 39.354 10.983 39.459 11.13 39.543C11.55 39.774 11.991 39.984 12.453 40.173C12.621 40.257 12.789 40.341 12.957 40.404C13.419 40.593 13.881 40.761 14.343 40.908C14.511 40.971 14.679 41.034 14.847 41.076C15.351 41.223 15.855 41.349 16.359 41.475C16.506 41.517 16.653 41.559 16.821 41.58C17.409 41.706 17.997 41.79 18.606 41.853C18.69 41.853 18.774 41.874 18.858 41.895C19.572 41.958 20.286 42 21 42C21.714 42 22.428 41.958 23.121 41.895C23.205 41.895 23.289 41.874 23.373 41.853C23.982 41.79 24.57 41.706 25.158 41.58C25.305 41.559 25.452 41.496 25.62 41.475C26.124 41.349 26.649 41.244 27.132 41.076C27.3 41.013 27.468 40.95 27.636 40.908C28.098 40.74 28.581 40.593 29.022 40.404C29.19 40.341 29.358 40.257 29.526 40.173C29.967 39.984 30.408 39.774 30.849 39.543C31.017 39.459 31.164 39.354 31.311 39.27C31.731 39.018 32.151 38.787 32.571 38.514C32.718 38.43 32.844 38.325 32.991 38.22C33.411 37.926 33.81 37.632 34.188 37.317C34.314 37.212 34.419 37.107 34.545 37.023C34.776 36.834 35.007 36.645 35.217 36.456C35.217 36.435 35.217 36.435 35.196 36.414C39.375 32.571 42 27.09 42 21ZM31.374 31.437C25.683 27.615 16.359 27.615 10.626 31.437C9.702 32.046 8.946 32.76 8.316 33.537C5.124 30.303 3.15 25.872 3.15 21C3.15 11.151 11.151 3.15 21 3.15C30.849 3.15 38.85 11.151 38.85 21C38.85 25.872 36.876 30.303 33.684 33.537C33.075 32.76 32.298 32.046 31.374 31.437Z"
+                  fill="currentColor" />
+                <path
+                  d="M21 10.3524C16.653 10.3524 13.125 13.8804 13.125 18.2274C13.125 22.4904 16.464 25.9554 20.895 26.0814H21.084H21.231H21.273C25.515 25.9344 28.854 22.4904 28.875 18.2274C28.875 13.8804 25.347 10.3524 21 10.3524Z"
+                  fill="currentColor" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- Close icon -->
+      <div class="absolute top-10 right-24 text-4xl cursor-pointer lg:hidden"> <ion-icon name="close"
+          onclick="Close(this) "></ion-icon> </div>
+    </div>
+  </div>
+
+
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Buttons</h2>
+
+
+  <div class="flex gap-4 ml-8 mb-8">
+    <a class="px-8 py-4 bg-white border-solid border-black border-2 text-black text-center hover:bg-black hover:text-white hover:border-solid hover:border-2 hover:border-black transition duration-300 rounded-3xl text-base font-medium"
+      href="#">
+      Voir le produit
+    </a>
+
+    <a class="px-12 py-4 bg-white border-solid border-black border-2 text-black text-center hover:bg-black hover:text-white hover:border-solid hover:border-2 hover:border-black transition duration-300 rounded-3xl"
+      href="#">
+      Voir le produit
+    </a>
+
+    <a class="px-12 py-4 bg-black text-white text-center hover:bg-rouge-base transition-colors rounded-3xl" href="#">
+      Voir tous les produits
+    </a>
+
+
+    <select class="pl-2 pr-6 rounded-xl bg-white text-black h-12" name="options" id="options-select">
+      <option class="" value=""> option </option>
+      <option value="fume">Fumé</option>
+      <option value="noix">Au noix</option>
+      <option value="pimente">Pimenté</option>
+    </select>
+
+
+    <div class="flex gap-2 bg-white items-center px-4 py-2 pr-6 rounded-xl">
+      <div class="w-4 h-4 bg-green-500 rounded-full"></div>
+      <p>Disponible</p>
+    </div>
+    <div class="flex gap-2 bg-white items-center px-4 py-2 pr-6 rounded-xl">
+      <div class="w-4 h-4 bg-rouge-base rounded-full"></div>
+      <p>Indisponible</p>
+    </div>
+    <div class="flex gap-2 bg-white items-center px-4 py-2 pr-6 rounded-xl">
+      <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+      <p>Temporairement indisponible</p>
+    </div>
+
+
+  </div>
+  <a href="" class="bg-black py-2 px-6 text-center mx-12 text-3xl font-medium rounded-3xl text-white uppercase"> Valider
+  </a>
+  <a href="" class="bg-black py-4 px-6 text-center mx-12 text-3xl font-medium rounded-3xl text-white uppercase ">
+    Continuer mes achats </a>
+  <a href="" class="bg-rouge-base py-4 px-6 text-center mx-12 text-xl font-medium rounded text-white uppercase ">
+    Continuer mes achats </a>
+
+
+
+
+  <h2 class="text-white text-3xl font-semibold ml-8">Input</h2>
+
+
+  <div class="flex flex-col gap-4 ml-8 mb-24">
+    <input type="email"
+      class="pl-2 py-2 rounded-tl-lg rounded-bl-lg outline-none text-rouge-base placeholder:text-red-400 border-2 border-rouge-base border-solid font-semibold focus:border-b-4 focus:pt-2.5 transition-all duration-100"
+      placeholder="S'inscrire à la newsletter" id="email" autocomplete="off" />
+    <div class="flex flex-col gap-2">
+      <h3 class="text-rouge-base uppercase text-2xl"> Prénom </h3>
+      <input type="text"
+        class="pl-2 py-2 rounded-lg outline-none w-full text-rouge-base border-2 border-black border-solid font-semibold focus:border-4 focus:pt-2.5 transition-all duration-100"
+        id="text" autocomplete="off" />
+    </div>
+  </div>
+
+
+
+  <script>
+    let ham = document.querySelector('#ham');
+    let burger = document.querySelector('#burger')
+    function Open(){
+      ham.classList.add('w-full')
+      burger.classList.add('text-rouge-opa100')
+    }
+    function Close(){
+      ham.classList.remove('w-full')
+      burger.classList.remove('text-rouge-opa100')
+    }
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>

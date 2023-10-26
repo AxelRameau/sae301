@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  @layer utilities {
+  }
+
+
+
+
+ @layer components {
+  .menu {
+    @apply p-8 rounded-xl flex flex-col justify-between items-center bg-white text-center hover:bg-rouge-base hover:text-white transition duration-300 cursor-pointer;
+  }
+  .menu-active {
+    @apply p-16 rounded-xl flex flex-col justify-between max-w-sm aspect-square bg-rouge-base text-center text-white;
+  }
+  .menu__mob {
+    @apply text-black px-4 py-2 bg-white rounded-xl hover:bg-rouge-base hover:text-white;
+  }
+  .menu__mob-activate {
+    @apply px-4 py-2 text-white bg-rouge-base rounded-xl;
+  }
+  .categorie__titre {
+    @apply font-bold text-xl text-rouge-base hover:text-rouge-80;
+  }
+  .categorie__rubrique {
+    @apply  hover:text-rouge-80;
+  }
+  .navbar__cat-active {
+    @apply  bg-rouge-base text-white px-4 py-2 rounded-3xl text-xl hover:text-white hover:bg-rouge-base mb-0;
+  }
+  .navbar__cat {
+    @apply  hover:bg-rouge-base px-4 py-2 hover:rounded-3xl text-xl text-rouge-base mb-0 text-center;
+  }
+  .h3class {
+    @apply  text-2xl font-semibold font-ff-kanit;
+  }
+  .h1class {
+    @apply  text-4xl font-ff-kanit font-bold;
+  }
+  .h2class {
+    @apply  text-3xl font-ff-sans ;
+  }
+}
+
+
+@layer base {
+  :root {
+    --clr-rouge-1: #FFE8E8;
+    --clr-rouge-10: #fbccd3;
+    --clr-rouge-20: #f9aab6;
+    --clr-rouge-30: #f68091;
+    --clr-rouge-40: #f2556c;
+    --clr-rouge-50: #ef2a48;
+    --clr-rouge-base: #ec0023;
+    --clr-rouge-60: #c5001d;
+    --clr-rouge-70: #9d0017;
+    --clr-rouge-80: #760012;
+    --clr-rouge-90: #4f000c;
+    --clr-rouge-100: hsl(351, 100%, 9%);
+    --clr-rouge-100-opa: hsla(351, 100%, 9%, 0.9);
+    --clr-rouge-1-opa: hsla(0, 100%, 95%, 0.7);
+
+    --clr-jaune-10: #fff8cc;
+    --clr-jaune-20: #fff4aa;
+    --clr-jaune-30: #ffef80;
+    --clr-jaune-40: #ffe955;
+    --clr-jaune-50: #ffe42a;
+    --clr-jaune-base: #ffde00;
+    --clr-jaune-60: #d5b900;
+    --clr-jaune-70: #aa9400;
+    --clr-jaune-80: #806f00;
+    --clr-jaune-90: #554a00;
+    --clr-jaune-100: #332c00; 
+
+    --clr-gray-40:hsla(210,19,98,.4);
+
+    --ff-cochonou : "Super Dream";
+    --ff-kanit : "Kanit", sans-serif;
+
+    --fond-img: url('../assets/bob-vichy.jpg');
+    --fond-img-saucisson: url('../assets/saucisson-pur-porc.jpg');
+  }
+} 
